@@ -26,6 +26,9 @@ namespace SpaceBear.VRUI
 		private Color outlineDark = new Color(0.8784314f, 0.8784314f, 0.8784314f, 1f);
 		private Color outlineLight = new Color(0.6196979f, 0.6196979f, 0.6196979f, 1f);
 
+		private Color myColorDark = new Color(0.4f, 0.4f, 0.4f, 1f);
+		private Color myColorLight = new Color(0.9f, 0.9f, 0.9f, 1f);
+
 		private Color accentUIDark = new Color(1f, 1f, 1f, 0.0f);
 		private Color hoverUIDark = new Color(1f, 1f, 1f, 0.2f);
 		private Color pressedUIDark = new Color(1f, 1f, 1f, 0.4f);
@@ -61,6 +64,22 @@ namespace SpaceBear.VRUI
 		public void UpdateColors()
 		{
 			// Find all the UI components in the scene and update their colors and themes
+
+			GameObject[] bks = GameObject.FindGameObjectsWithTag("VRUIBack");
+
+			foreach (GameObject bk in bks)
+			{
+				Color color = isDarkTheme ? myColorDark : myColorLight;
+
+				if (bk.GetComponent<Image>())
+				{
+					bk.GetComponent<Image>().color = color;
+				}
+				else if (bk.GetComponent<Renderer>())
+				{
+					bk.GetComponent<Renderer>().sharedMaterial.color = color;
+				}
+			}
 
 			GameObject[] bgs = GameObject.FindGameObjectsWithTag("VRUIBackground");
 
