@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: 7480d70d77653704da8c51be03f0cd46
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - courseCard: {fileID: 5697458132841566043, guid: 57d0ee84d7da9cb4f9cbfb7d5044bbc7,
+      type: 3}
+  - groupObject: {fileID: 6365748918242725697, guid: 672d8fbbb4ad979449bf19a0dfd9d798,
+      type: 3}
+  - coursePreviewPanel: {fileID: 1141450405783314751, guid: aba8a5d2549e54b4bbe1590ab0ef1399,
+      type: 3}
+  - lessonPreviewPanel: {fileID: 6261751637217048338, guid: 2dbdad2ceca965646b63a67c11064a64,
+      type: 3}
+  - lessonSidebarObject: {fileID: 6869884358893446531, guid: 77786fd1c7a157c4497b29ab2ca892d0,
+      type: 3}
+  - defaultTablet: {fileID: 7460548405564526917, guid: c864d315fb7998c4eb579d17519f5226,
+      type: 3}
+  - fullScreen: {fileID: 4913541691540855207, guid: 10a03afe388dd424abf9e827d8928652,
+      type: 3}
+  - mediaPanel: {fileID: 7098570862112489309, guid: c8cd7669ad550d9439d0fc979c66138c,
+      type: 3}
+  - image: {fileID: 5288788784881583939, guid: 8bddac6cc06cfc14d84e49db805b64bc, type: 3}
+  - video: {fileID: 9038605637967296015, guid: 71073ba8d001d1542837f5b9182e0f5a, type: 3}
+  - model: {fileID: 326312671478362066, guid: 6e94035541b2cfe40b836d82ac9f473e, type: 3}
+  - imagecl: {fileID: 6140647847763664417, guid: 8aa264bf71e02a44a987ad6d6fc05e2e,
+      type: 3}
+  - videocl: {fileID: 6135583510957533054, guid: 3159bf20685ff7d49af302f847a6bde0,
+      type: 3}
+  - modelcl: {fileID: 5957496058987676126, guid: 0e45b843ba89639448b144cebe5ca1ef,
+      type: 3}
+  - textPanel: {fileID: 4037667957224853820, guid: 9cad3c9fedb62f34ab649b528b5b9085,
+      type: 3}
+  - lCSwitcher: {fileID: 1959198280948433583, guid: ca2b7f4d486031141aa09d20657c935f,
+      type: 3}
+  - linearLesson: {fileID: 1958263088647603579, guid: 8073b1256c64a6a4088909e911285c3a,
+      type: 3}
+  - flexibleLesson: {fileID: 3024318266984999547, guid: adf90991cdfde57498936d3e36f9b42f,
+      type: 3}
+  - steps: {fileID: 65282366331721955, guid: d51134e71285d8a498f6a7104cc7620e, type: 3}
+  - buttonStep: {fileID: 591224853918337050, guid: acd7e722b427f3342bda763b940b1614,
+      type: 3}
+  - toggleStep: {fileID: 1479254786750849670, guid: 5c734c58631c48448a1a7892eeffca5e,
+      type: 3}
+  - dialogueStep: {fileID: 6786805615300820628, guid: 4f14c4292f56b07498a3ab89fb836024,
+      type: 3}
+  - objectPositionStep: {fileID: 1233953566587917664, guid: adf0748656440f5438ad0f29752af422,
+      type: 3}
+  - objectInteractStep: {fileID: 5012044472779923691, guid: c0e8d9030de0152419ada867a37133e6,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

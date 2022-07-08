@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://fir-project-8768e-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">726766297055</string>
+  <string name="google_storage_bucket" translatable="false">fir-project-8768e.appspot.com</string>
+  <string name="project_id" translatable="false">fir-project-8768e</string>
+  <string name="google_api_key" translatable="false">AIzaSyCYYl0KokegkF1l4abD6U19OHxH8pDKnOI</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCYYl0KokegkF1l4abD6U19OHxH8pDKnOI</string>
+  <string name="google_app_id" translatable="false">1:726766297055:android:adad113a0e4807f709ae6a</string>
+  <string name="default_android_client_id" translatable="false">726766297055-ds24jr75vblaso48nt22llfbgfshj4s4.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">726766297055-jv55u4f9gkee7ajibfsp871a64fhte6d.apps.googleusercontent.com</string>
+</resources>

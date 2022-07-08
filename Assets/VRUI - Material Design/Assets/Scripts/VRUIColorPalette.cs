@@ -61,6 +61,20 @@ namespace SpaceBear.VRUI
 
 		}
 
+		public void ToggleTheme()
+        {
+			if(isDarkTheme == true)
+            {
+				isDarkTheme = false;
+				UpdateColors();
+            }
+            else
+            {
+				isDarkTheme = true;
+				UpdateColors();
+            }
+        }
+
 		public void UpdateColors()
 		{
 			// Find all the UI components in the scene and update their colors and themes
